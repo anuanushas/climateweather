@@ -1,15 +1,34 @@
-.climate {
-  padding: 20px;
-  background-color: #7f9cfa;
+.card {
+  margin: 30px;
+  border-radius: 16px;
+  padding: 30px;
+  background: linear-gradient(-45deg, #3e4eff, #7f8cff, #4248fa, #91a5ff);
+  background-size: 400% 400%;
+  animation: gradient 8s ease infinite;
   color: #ffffff;
-  width: 60vh;
-  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  margin: 20px;
-  border-radius: 10px;
+  width: 80vh;
+  height: 60vh;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .cli-wea {
@@ -18,6 +37,7 @@
   font-size: 25px;
   color: #ffffff;
 }
+
 .degree {
   font-size: 20px;
 }
@@ -27,7 +47,7 @@
   text-transform: capitalize;
 }
 
-.climate > img {
+.card > img {
   width: 100px;
   margin: auto;
 }

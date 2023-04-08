@@ -19,7 +19,7 @@ function Weacondtion(props) {
   ];
   return (
     <>
-      <div className="climate">
+      <div className="card">
         {props.data ? (
           <>
             <div className="cli-wea">

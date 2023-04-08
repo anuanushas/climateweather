@@ -36,16 +36,18 @@ function App() {
     <>
       {!guest ? (
         <div className="login-names">
-          <input
-            type="text"
-            placeholder="Name"
-            value={but}
-            onChange={butname}
-          />
-
-          <button class="button-62" onClick={enter}>
-            Enter
-          </button>
+          <form>
+            <input
+              type="text"
+              placeholder="Enter your name"
+              autoFocus
+              value={but}
+              onChange={butname}
+            />
+            <button class="button" onClick={enter}>
+              Enter
+            </button>
+          </form>
         </div>
       ) : (
         <div className="container">
@@ -56,7 +58,8 @@ function App() {
                 <i className="fa-solid fa-magnifying-glass"></i>
                 <input
                   type="text"
-                  placeholder="Search..."
+                  autoFocus
+                  placeholder="Search here..."
                   id=""
                   value={city}
                   onChange={handler}
@@ -69,7 +72,7 @@ function App() {
             <Weacondtion data={data} />
           </div>
         </div>
-      )}{" "}
+      )}
     </>
   );
 }
