@@ -1,0 +1,47 @@
+.climate {
+  padding: 20px;
+  background-color: #7f9cfa;
+  color: #ffffff;
+  width: 60vh;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.cli-wea {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  color: #ffffff;
+}
+.degree {
+  font-size: 20px;
+}
+
+.cli-wea p {
+  padding: 10px;
+  text-transform: capitalize;
+}
+
+.climate > img {
+  width: 100px;
+  margin: auto;
+}
+
+.condition-weather {
+  font-size: 50px;
+}
+
+.wind {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wind p {
+  padding: 10px;
+}

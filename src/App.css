@@ -1,0 +1,121 @@
+.login-names {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  background: rgb(178, 193, 237);
+  background: linear-gradient(
+    147deg,
+    rgba(178, 193, 237, 1) 33%,
+    rgba(125, 141, 242, 1) 86%
+  );
+}
+.login-names input {
+  border: none;
+  outline: none;
+  width: 300px;
+  padding: 8px 24px;
+  border-radius: 14px;
+  margin-right: 20px;
+  color: rgb(11, 63, 252);
+  border-radius: 12px;
+
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+}
+.button-62 {
+  background: linear-gradient(to bottom right, #ef4765, #ff9a5a);
+  border: 0;
+  border-radius: 12px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow 0.2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.button-62:not([disabled]):focus {
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5),
+    -0.125rem -0.125rem 1rem rgba(239, 71, 101, 0.5),
+    0.125rem 0.125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button-62:not([disabled]):hover {
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5),
+    -0.125rem -0.125rem 1rem rgba(239, 71, 101, 0.5),
+    0.125rem 0.125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.container {
+  background: rgb(250, 254, 254);
+  background: linear-gradient(
+    126deg,
+    rgba(250, 254, 254, 1) 0%,
+    rgba(120, 173, 255, 1) 100%,
+    rgba(138, 51, 253, 1) 100%,
+    rgba(138, 51, 253, 1) 100%,
+    rgba(135, 45, 253, 1) 100%
+  );
+  height: 100vh;
+}
+
+.left {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  display: flex;
+  margin: 30px;
+}
+
+.inputsection {
+  display: flex;
+  align-items: center;
+  border-radius: 16px;
+  background-color: #f5f8ff;
+  width: 100%;
+  padding: 8px 24px;
+}
+
+.inputsection i {
+  color: #80ea93;
+  font-size: 20px;
+}
+
+.inputsection input {
+  background-color: #f5f8ff;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 4px 16px;
+  color: #fd2020;
+  font-size: 20px;
+}

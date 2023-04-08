@@ -1,0 +1,18 @@
+.clock {
+  padding: 20px 30px;
+}
+
+.clock h1 {
+  color: #2e2afc;
+  padding: 5px 20px;
+}
+
+.clock p {
+  color: #353539;
+  padding: 0px 20px;
+}
+
+.clock h3 {
+  color: #756aef;
+  padding: 10px 20px;
+}
