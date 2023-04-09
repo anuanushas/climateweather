@@ -24,7 +24,15 @@
   }
 }
 
-.login-names input {
+.login-names form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.login-names form input {
   border: none;
   outline: none;
   width: 240px;
@@ -112,10 +120,6 @@
 }
 
 .container {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("https://64.media.tumblr.com/a2ce1e258b3fbf940614f373a709436c/d544d70696384cb9-56/s640x960/a503d05b0d672cffa6d991e9408809f683412e52.gif");
-  height: 120vh;
 }
 
 .left {
